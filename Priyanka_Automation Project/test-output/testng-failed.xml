@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.AutomationTestCases">
+        <methods>
+          <include name="applyDiscout"/>
+          <include name="phoneNoQueMark"/>
+          <include name="productMovedtoWishList"/>
+          <include name="setup"/>
+          <include name="invalidPostCode"/>
+          <include name="testHotSellers"/>
+          <include name="placeTheOrder"/>
+          <include name="summary"/>
+          <include name="clickHereFunction"/>
+          <include name="flatShippingWay"/>
+          <include name="checkout"/>
+          <include name="downloadOrderReceipt"/>
+          <include name="removedProduct"/>
+          <include name="billingCheckBoxChecked"/>
+          <include name="removeProductCancel"/>
+          <include name="bestShippingWay"/>
+        </methods>
+      </class> <!-- tests.AutomationTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
